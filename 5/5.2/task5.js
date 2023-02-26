@@ -1,0 +1,5 @@
+const random = (min, max) => {
+  return min + Math.random() * (max - min);
+}
+
+alert(random(1, 5));
